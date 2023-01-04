@@ -1,0 +1,63 @@
+{
+	"products": [
+		{
+			"number": "1",
+			"title": "Bolognaise",
+			"subtitle": "tomatsauce, ost, kødsauce og spaghetti",
+			"price": 79,
+			"categoryId": 1
+		},
+		{
+			"number": "2",
+			"title": "Calzone",
+			"subtitle": "tomatsauce, ost og skinke",
+			"price": 75,
+			"categoryId": 1
+		},
+		{
+			"number": "3",
+			"title": "Calzone",
+			"subtitle": "tomatsauce, ost, skinke og champignon",
+			"price": 82,
+			"categoryId": 1
+		},
+		{
+			"number": "4",
+			"title": "UFO dobbelt dej",
+			"subtitle": "tomatsauce, ost, kødsauce og spaghetti",
+			"price": 95,
+			"categoryId": 1
+		},
+		{
+			"number": "5",
+			"title": "Byens pizza",
+			"subtitle": "tomatsauce, ost, kødstrimler, løg, paprika, champignon og bearnaise",
+			"price": 92,
+			"categoryId": 2
+		},
+		{
+			"number": "6",
+			"title": "Matador",
+			"subtitle": "tomatsauce, ost, oksefilet og løg",
+			"price": 84,
+			"categoryId": 2
+		},
+		{
+			"number": "7",
+			"title": "Luksus matador",
+			"subtitle": "tomatsauce, ost, champignon, paprika, løg, oksefilet og bearnaise",
+			"price": 92,
+			"categoryId": 2
+		}
+	],
+	"categories": [
+		{
+			"id": 1,
+			"name": "Pizza indbagt"
+		},
+		{
+			"id": 2,
+			"name": "Pizza 1/2 indbagt"
+		}
+	]
+}

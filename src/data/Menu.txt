@@ -1,0 +1,114 @@
+Pizza alm.
+7a | Luksus matador | Tomatsauce, ost, løg, paprika, champignon, oksefilet og bearnaise
+8 | Margherita | Tomat og ost
+9 | Vesuvio | Tomat, ost og skinke
+9a | Vesuvio II | Tomat, ost, skinke, kebab og bearnaise
+10 | Capricciosa | Tomat, ost, skinke og champignon
+10a | Capricciosa II | Tomat, ost, skinke, champignon og gorgonzolasauce
+11 | Quatro Stagioni | Tomat, ost, skinke, champignon og rejer
+12 | Hawaii | Tomat, ost, skinke og ananas
+13 | Florida | Tomat, ost, skinke, pepperoni og bacon
+13a | Copenhagen | Tomat, ost, oksefilet, kødboller og bacon
+14 | Milano | Tomat, ost, skinke, bacon og æg
+15 | Quattro | Tomat, ost, champignon, og artiskok
+16a | Katrines special | Tomat, ost, kartoffelskiver, løg, cherry tomat, kebab og pesto
+17 | Scandinavia | Tomat, ost, skinke, bacon og oliven
+18 | Palermo | Tomat, ost, skinke, og kødboller
+19a | Vejby special | Tomat, ost, skinke, pepperoni, bacon, kebab, pølser og dressing
+20 | Gorgonzola | Tomat, ost champignon, løg og gorgonzola
+21 | Torino | Tomat, ost, bacon, hvidløg, kødstrimler, grøn peber og løg
+21a | Mozzarella | Tomat, mozzarella, pesto, kylling og rucola
+22 | Italiano | Tomat, ost, kødsauce og løg
+24 | La Maria | Tomat, ost, kødsauce, champignon og paprika
+26 | San pero | Tomat, ost, pepperoni, kødboller og grøn peber
+27 | Pepperoni | Tomat, ost og pepperoni
+27a | Helsinge special | Tomat, ost, pølser, bacon, pepperoni og grøn peber
+29 | Venus | Tomat, ost, kylling og pepperoni
+29a | Ramløse special | Tomat, ost, kylling, bacon og karry dressing
+30 | Amore | Tomat, ost, kylling, løg og ananas
+30a | Gadekær | Tomat, ost, kylling, bacon, løg, chili og hvidløg
+31 | Pompei | Tomat, ost, tun og rejer
+32a | Alla salmone | Tomat, ost, rejer, laks og hvidløg
+33 | Napoli | Tomat, ost, pepperoni, bacon og æg
+34 | Parma | Tomat, ost, kødstrimler, kødboller og løg
+35 | Mamma rosa | Tomat, ost, kødstrimler, gorgonzola og champignon
+35a | Alla parma | Tomat, ost, champignon, lufttørret skinke og gorgonzola
+36 | Pranzo | Tomat, ost, kødboller, paprika, løg og champignon
+38 | Romano | Tomat, ost, kødstrimler, champignon og løg
+41 | Calito | Tomat, ost, champignon, æg, paprika og bacon
+44 | Grandiosa | Tomat, ost, paprika, kødstrimler og løg
+45 | Salli's special | Tomat, ost, bagt kartoffelskiver, dressing og fyld. Vælg mellem kebab, kylling, bacon eller pølser
+45a | Shawarma pizza | Tomat, ost, shawarma (kebab) med salat og dressing
+85 | Annise special | Tomat, ost, lufttørret skinke, rucola og pesto
+85a | Kapers | Tomat, ost, lufttørret skinke, gorgonzolasauce og kapers
+87 | Pizza pesto | Tomat, ost, champignon, kylling, pesto, cherry tomat og rucolasalat
+88 | Tobias special | Tomat, ost, pepperoni, kebab og dressing
+88a | Smidstrup | Tomat, ost, kebab, dressing og pommes frites
+Pizza Stærk
+36a | Nachos Pizza | Tomat, ost, tortilla chips, kylling, jalapeños, tacosauce og dressing
+36b | Ørby special | Tomat, ost, kylling, mexicansk salami, kebab, hakket kød, hvidløg og chilifrugter
+37 | Alicia | Tomatsauce, ost, rejer, løg, champignon, paprika og chili
+37a | Callo | Tomatsauce, pepperoni, kebab, paprika og tacosauce
+39 | Orientel | Tomatsauce, ost, kødboller og chili
+40 | Mexicano | HER HER HER HER
+40a | Amigo
+Pizza vegetar
+42 | Vegetar
+43 | Børker
+58 | Hvidløgsbrød
+Ekstra tilbehør
+Tomatsauce, æg, løg, hvidløg, bearnaisesauce, paprika, oliven | 7
+Ananas, champignon, artiskok, rucolasalat, kartoffelskiver | 10
+Kødstrimler, skinke, ost, pepperoni, kylling, tun, rejer, kebab, kødsauce, bacon, kødboller, pølser | 16
+Salat & dressing på pizza | 16
+Gorgonzolasauce | 20
+Husest specialiteter
+50 | Græsk bøf
+50a | Byens bøf
+50g | Byens kebab ret
+50x | 200 gr. oksefilet 
+54 | Kebab tallerken
+55 | 1/2 kylling
+56 | Fiskefilet
+58 | Hvidløgsbrød
+Byens pastaretter
+46 | Lasagne
+48 | Spaghetti
+49b | Pasta a la helsinge
+Byens saftige burgere (200 gr. hakket oksekød)
+90 | Klassisk okse burger
+91 | Cheese okse burger 
+94 | baconcheese okse burger
+Pitabrød hjemmebagt | Alle pitabrød er med salat og dressing.
+59 | Græsk bøf
+60 | Græsk bøf | Med ost
+62 | Kødstrimler
+62a | Shawarma | kebab
+63 | Kylling 
+63a | Kylling & bacon
+65 | Skinke & ost
+67a | Falafel
+Durum rulle
+45b | Shawarma
+45f | Falafel
+45k | Kylling
+Pommes frites | uden dressing
+Pommes frites - lille
+Pommes frites - stor
+Dressing | Salatmayonaise, remoulade, ketchup, dressing, bearnaise
+Salater | Alle salater med iceberg, tomat, agurk og dressing.
+68k | Kebab salat
+70b | Pasta salat
+72 | Kylling salat
+72a | Kylling & bacon salat
+Børnemenu
+78 | Pizza bambino
+78a | Børne pizza
+79 | Pizza Turtles
+79a | Pizza pepperoni
+80 | Spaghetti
+81 | Fiskefilet
+82 | Kylling nuggets
+Nachos | Majstorrillachips toppet med masser af smeltet ost, tacosauce, jalapeños og creme fraice dressing
+101 | Nachos
+103 | Nachos
