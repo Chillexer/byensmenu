@@ -1,19 +1,15 @@
-import { useLiveQuery } from "dexie-react-hooks";
-import React from "react";
-import { db } from "../data/db";
+import Product from "../Models/Product";
 import Card from "./Card";
 
 type Props = {
-	categoryId: number;
+	products: Product[];
 };
 
-export default function ProductCards({ categoryId }: Props) {
-	const products = useLiveQuery(() => db.products.where("categoryId").equals(categoryId).toArray());
-
+export default function ProductCards({ products }: Props) {
 	return (
 		<div className="flex flex-col gap-5">
 			{products?.map((product) => (
-				<Card product={product} key={product.number} />
+				<Card product={product} key={product.id} />
 			))}
 		</div>
 	);

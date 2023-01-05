@@ -9,26 +9,38 @@ export class MenuDB extends Dexie {
     // We just tell the typing system this is the case
     products!: Table<Product>;
     categories!: Table<Category>;
+    initialized: boolean = false
+
+    public async initialize() {
+        if (this.initialized)
+            return;
+        this.initialized = true
+        var count = await this.products.count()
+
+        if (count !== data.products.length) {
+            await this.products.each(product => {
+                for (let index = 0; index < data.products.length; index++) {
+                    if (data.products[index].id === product.id) {
+                        (data.products[index] as Product).isFavorite = product.isFavorite;
+                        if (product.isFavorite)
+                            console.log(data.products[index])
+                    }
+                }
+            })
+            await this.products.clear()
+            await this.categories.clear()
+
+            await this.products.bulkAdd(data.products as Product[]);
+            await this.categories.bulkAdd(data.categories);
+        }
+    }
 
     constructor() {
         super('byenspizza');
         this.version(1).stores({
             products: '++id, number, title, subtitle, categoryId, isFavorite', // Primary key and indexed props
-            categories: "id, name"
+            categories: "++id, name",
         });
-
-        this.products.each(product => {
-            for (let index = 0; index < data.products.length; index++) {
-                if (data.products[index].number === product.number)
-                    (data.products[index] as Product).isFavorite = product.isFavorite;
-            }
-        })
-
-        this.products.clear()
-        this.categories.clear()
-
-        this.categories.bulkAdd(data.categories);
-        this.products.bulkAdd(data.products as Product[]);
     }
 }
 
