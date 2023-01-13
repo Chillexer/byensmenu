@@ -28,16 +28,16 @@ export default function Card({ product }: Props) {
 						product.number !== "" ? product.number + "." : ""
 					} ${product.title}`}</h1>
 				)}
-				<p className="row-start-2  text-gray-700">{product.subtitle}</p>
+				<p className="row-start-2 text-gray-700">{product.subtitle}</p>
 				<p className="row-start-3 text-lg font-bold">
 					{product.price.toLocaleString("da-dk", currencyFormat)}
 				</p>
 			</div>
 			<div className="col-start-2 row-span-3 row-start-1 text-4xl">
 				{product.isFavorite ? (
-					<AiFillHeart className="text-red-500" onClick={() => handleToggleLike()} />
+					<AiFillHeart className="text-red-500 cursor-pointer" onClick={() => handleToggleLike()} />
 				) : (
-					<AiOutlineHeart onClick={() => handleToggleLike()} />
+					<AiOutlineHeart className="cursor-pointer" onClick={() => handleToggleLike()} />
 				)}
 			</div>
 		</div>

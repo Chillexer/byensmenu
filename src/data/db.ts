@@ -9,12 +9,13 @@ export class MenuDB extends Dexie {
     // We just tell the typing system this is the case
     products!: Table<Product>;
     categories!: Table<Category>;
-    initialized: boolean = false
+    initialized: boolean = false;
+    initializing: boolean = false;
 
     public async initialize() {
-        if (this.initialized)
-            return;
-        this.initialized = true
+        if (this.initialized || this.initializing)
+            return
+        this.initializing = true
         var count = await this.products.count()
 
         if (count !== data.products.length) {
@@ -33,6 +34,9 @@ export class MenuDB extends Dexie {
             await this.products.bulkAdd(data.products as Product[]);
             await this.categories.bulkAdd(data.categories);
         }
+
+        this.initializing = false
+        this.initialized = true
     }
 
     constructor() {
