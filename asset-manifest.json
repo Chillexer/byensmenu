@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/byensmenu/static/css/main.b17a52f8.css",
-    "main.js": "/byensmenu/static/js/main.4282a507.js",
-    "static/js/787.6b503308.chunk.js": "/byensmenu/static/js/787.6b503308.chunk.js",
-    "service-worker.js": "/byensmenu/service-worker.js",
-    "index.html": "/byensmenu/index.html",
-    "main.b17a52f8.css.map": "/byensmenu/static/css/main.b17a52f8.css.map",
-    "main.4282a507.js.map": "/byensmenu/static/js/main.4282a507.js.map",
-    "787.6b503308.chunk.js.map": "/byensmenu/static/js/787.6b503308.chunk.js.map"
+    "main.css": "/Chillexer.github.io/byensmenu/static/css/main.b17a52f8.css",
+    "main.js": "/Chillexer.github.io/byensmenu/static/js/main.e0e80d50.js",
+    "static/js/787.6b503308.chunk.js": "/Chillexer.github.io/byensmenu/static/js/787.6b503308.chunk.js",
+    "service-worker.js": "/Chillexer.github.io/byensmenu/service-worker.js",
+    "index.html": "/Chillexer.github.io/byensmenu/index.html",
+    "main.b17a52f8.css.map": "/Chillexer.github.io/byensmenu/static/css/main.b17a52f8.css.map",
+    "main.e0e80d50.js.map": "/Chillexer.github.io/byensmenu/static/js/main.e0e80d50.js.map",
+    "787.6b503308.chunk.js.map": "/Chillexer.github.io/byensmenu/static/js/787.6b503308.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b17a52f8.css",
-    "static/js/main.4282a507.js"
+    "static/js/main.e0e80d50.js"
   ]
 }
