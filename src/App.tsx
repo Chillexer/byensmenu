@@ -1,9 +1,10 @@
 import { useLiveQuery } from "dexie-react-hooks";
+import { useState } from "react";
 import { RecoilRoot } from "recoil";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Scroller from "./components/Scroller";
 import Search from "./components/Search";
-import Section from "./components/Section";
 import { db } from "./data/db";
 
 function App() {
@@ -12,18 +13,20 @@ function App() {
 		return await db.categories.toArray();
 	});
 
-	return (
-		<div className="bg-gray-50">
-			<RecoilRoot>
-				<Navbar />
-				<Search />
+	const [section, setSection] = useState(0);
 
-				{categories?.map((category) => (
-					<Section category={category} key={category.id} />
-				))}
-			</RecoilRoot>
-		</div>
-	);
+	if (categories)
+		return (
+			<div className="bg-gray-50">
+				<RecoilRoot>
+					<Navbar />
+					<Search categories={categories} />
+
+					<Scroller categories={categories} setSection={setSection} />
+				</RecoilRoot>
+			</div>
+		);
+	return <></>;
 }
 
 export default App;

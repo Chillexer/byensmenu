@@ -1,5 +1,5 @@
 import { useLiveQuery } from "dexie-react-hooks";
-import React from "react";
+import React, { Ref } from "react";
 import { useRecoilState } from "recoil";
 import { searchAtom } from "../atoms/SearchAtom";
 import { db } from "../data/db";
@@ -11,7 +11,7 @@ type Props = {
 	category: Category;
 };
 
-export default function Section({ category }: Props) {
+const Section = React.forwardRef<HTMLElement, Props>(({ category }: Props, ref) => {
 	const [search] = useRecoilState(searchAtom);
 	const products = useLiveQuery(
 		() =>
@@ -30,7 +30,7 @@ export default function Section({ category }: Props) {
 
 	if (products.length > 0)
 		return (
-			<section className="px-4 mt-8 md:px-24 lg:px-48 xl:px-96">
+			<section ref={ref} id={category.title} className="px-4 mt-8 md:px-24 lg:px-48 xl:px-96">
 				<div className="flex flex-col mb-5">
 					<h1 className="text-2xl font-medium text-red-600">{category.title}</h1>
 					{category.subtitle !== "" && <p className="text-lg text-black">{category.subtitle}</p>}
@@ -40,4 +40,6 @@ export default function Section({ category }: Props) {
 			</section>
 		);
 	return <></>;
-}
+});
+
+export default Section;
