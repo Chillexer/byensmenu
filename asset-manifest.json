@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/Chillexer.github.io/byensmenu/static/css/main.b17a52f8.css",
-    "main.js": "/Chillexer.github.io/byensmenu/static/js/main.e0e80d50.js",
-    "static/js/787.6b503308.chunk.js": "/Chillexer.github.io/byensmenu/static/js/787.6b503308.chunk.js",
+    "main.js": "/Chillexer.github.io/byensmenu/static/js/main.e199b37d.js",
     "service-worker.js": "/Chillexer.github.io/byensmenu/service-worker.js",
     "index.html": "/Chillexer.github.io/byensmenu/index.html",
     "main.b17a52f8.css.map": "/Chillexer.github.io/byensmenu/static/css/main.b17a52f8.css.map",
-    "main.e0e80d50.js.map": "/Chillexer.github.io/byensmenu/static/js/main.e0e80d50.js.map",
-    "787.6b503308.chunk.js.map": "/Chillexer.github.io/byensmenu/static/js/787.6b503308.chunk.js.map"
+    "main.e199b37d.js.map": "/Chillexer.github.io/byensmenu/static/js/main.e199b37d.js.map"
   },
   "entrypoints": [
     "static/css/main.b17a52f8.css",
-    "static/js/main.e0e80d50.js"
+    "static/js/main.e199b37d.js"
   ]
 }
