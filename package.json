@@ -1,7 +1,7 @@
 {
+	"homepage": "Chillexer.github.io/byensmenu",
 	"name": "menu",
 	"version": "0.1.0",
-	"homepage": "http://Chillexer.github.io/byensmenu",
 	"private": true,
 	"dependencies": {
 		"@n8tb1t/use-scroll-position": "^2.0.3",
