@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/byens.github.io/static/css/main.b17a52f8.css",
-    "main.js": "/byens.github.io/static/js/main.3acddcf2.js",
-    "service-worker.js": "/byens.github.io/service-worker.js",
-    "index.html": "/byens.github.io/index.html",
-    "main.b17a52f8.css.map": "/byens.github.io/static/css/main.b17a52f8.css.map",
-    "main.3acddcf2.js.map": "/byens.github.io/static/js/main.3acddcf2.js.map"
+    "main.css": "/static/css/main.b17a52f8.css",
+    "main.js": "/static/js/main.0bbcb5a8.js",
+    "service-worker.js": "/service-worker.js",
+    "index.html": "/index.html",
+    "main.b17a52f8.css.map": "/static/css/main.b17a52f8.css.map",
+    "main.0bbcb5a8.js.map": "/static/js/main.0bbcb5a8.js.map"
   },
   "entrypoints": [
     "static/css/main.b17a52f8.css",
-    "static/js/main.3acddcf2.js"
+    "static/js/main.0bbcb5a8.js"
   ]
 }
