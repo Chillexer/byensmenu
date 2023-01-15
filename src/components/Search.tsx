@@ -70,7 +70,10 @@ const Search = ({ categories }: Props) => {
 							placeholder="Søg"
 							onChange={(e) => setSearch(e.target.value)}></input>
 						<AiOutlineClose
-							onClick={() => setSearchToggled(false)}
+							onClick={() => {
+								setSearch("");
+								setSearchToggled(false);
+							}}
 							className="w-8 h-8 p-[4px] rounded-full cursor-pointer text-black border-2 border-black"
 						/>
 					</>
