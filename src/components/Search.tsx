@@ -10,7 +10,7 @@ type Props = {
 
 const Search = ({ categories }: Props) => {
 	const [, setSearch] = useRecoilState(searchAtom);
-	const [closestCategory] = useRecoilState(closestCategoryAtom);
+	const [closestCategory, setClosestCategory] = useRecoilState(closestCategoryAtom);
 	const [searchOffset, setSearchOffset] = useState(0);
 	const [offset, setOffset] = useState(0);
 	const [searchToggled, setSearchToggled] = useState(false);
@@ -80,10 +80,18 @@ const Search = ({ categories }: Props) => {
 						ref={horizontalScroll}>
 						{categories.map((category) => (
 							<div
-								ref={closestCategory === category.id ? closestCategoryRef : null}
+								ref={closestCategory.closestCategory === category.id ? closestCategoryRef : null}
 								className={`flex h-10 px-4 items-center whitespace-nowrap rounded-full ${
-									closestCategory === category.id ? "bg-black text-white" : "text-black"
+									closestCategory.closestCategory === category.id
+										? "bg-black text-white"
+										: "text-black"
 								}`}
+								onClick={() => {
+									var temp = { ...closestCategory };
+									temp.closestCategory = category.id;
+									temp.isScrolling = true;
+									setClosestCategory(temp);
+								}}
 								key={category.id}>
 								{category.title}
 							</div>

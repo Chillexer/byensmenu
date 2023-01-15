@@ -12,5 +12,5 @@ export const filterAtom = atom({
 
 export const closestCategoryAtom = atom({
     key: "closestCategoryAtom",
-    default: 1,
+    default: { closestCategory: 1, isScrolling: false },
 })
