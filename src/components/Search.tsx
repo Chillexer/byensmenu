@@ -49,10 +49,10 @@ const Search = ({ categories }: Props) => {
 			}`}
 			ref={searchInput}>
 			<div
-				className={`grid w-full px-2 py-1 items-center searchbar ${
+				className={`grid w-full px-2 py-1 items-center searchbar  ${
 					searchToggled
 						? "border border-gray-400 rounded-lg focus-within:border-black hover:bg-gray-100"
-						: ""
+						: "gap-2"
 				}`}>
 				<label htmlFor="search">
 					<AiOutlineSearch
@@ -81,7 +81,7 @@ const Search = ({ categories }: Props) => {
 						{categories.map((category) => (
 							<div
 								ref={closestCategory.closestCategory === category.id ? closestCategoryRef : null}
-								className={`flex h-10 px-4 items-center whitespace-nowrap rounded-full ${
+								className={`flex h-10 px-4 items-center whitespace-nowrap rounded-full cursor-pointer ${
 									closestCategory.closestCategory === category.id
 										? "bg-black text-white"
 										: "text-black"
