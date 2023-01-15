@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/byensmenu/static/css/main.b17a52f8.css",
-    "main.js": "/byensmenu/static/js/main.2b708aa3.js",
+    "main.css": "/byensmenu/static/css/main.d4c56960.css",
+    "main.js": "/byensmenu/static/js/main.b43b76cd.js",
     "service-worker.js": "/byensmenu/service-worker.js",
     "index.html": "/byensmenu/index.html",
-    "main.b17a52f8.css.map": "/byensmenu/static/css/main.b17a52f8.css.map",
-    "main.2b708aa3.js.map": "/byensmenu/static/js/main.2b708aa3.js.map"
+    "main.d4c56960.css.map": "/byensmenu/static/css/main.d4c56960.css.map",
+    "main.b43b76cd.js.map": "/byensmenu/static/js/main.b43b76cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.b17a52f8.css",
-    "static/js/main.2b708aa3.js"
+    "static/css/main.d4c56960.css",
+    "static/js/main.b43b76cd.js"
   ]
 }
