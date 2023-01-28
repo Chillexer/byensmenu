@@ -1,4 +1,5 @@
 {
+	"version": 1,
 	"products": [
 		{
 			"id": 1,
@@ -811,7 +812,7 @@
 			"title": "Pizza bambino",
 			"subtitle": "Tomat, ost og skinke",
 			"price": 45,
-			"categoryId": 14
+			"categoryId": 15
 		},
 		{
 			"id": 102,
@@ -819,7 +820,7 @@
 			"title": "Børne pizza",
 			"subtitle": "Tomat, ost og pølser",
 			"price": 45,
-			"categoryId": 14
+			"categoryId": 15
 		},
 		{
 			"id": 103,
@@ -827,7 +828,7 @@
 			"title": "Pizza Turtles",
 			"subtitle": "Tomat, ost og kødsauce",
 			"price": 45,
-			"categoryId": 14
+			"categoryId": 15
 		},
 		{
 			"id": 104,
@@ -835,7 +836,7 @@
 			"title": "Pizza pepperoni",
 			"subtitle": "Tomat, ost og pepperoni",
 			"price": 45,
-			"categoryId": 14
+			"categoryId": 15
 		},
 		{
 			"id": 105,
@@ -843,7 +844,7 @@
 			"title": "Spaghetti",
 			"subtitle": "Med kødsauce",
 			"price": 45,
-			"categoryId": 14
+			"categoryId": 15
 		},
 		{
 			"id": 106,
@@ -851,7 +852,7 @@
 			"title": "Fiskefilet",
 			"subtitle": "1 stk. med pommes frites og remoulade",
 			"price": 45,
-			"categoryId": 14
+			"categoryId": 15
 		},
 		{
 			"id": 107,
@@ -859,7 +860,7 @@
 			"title": "Kylling nuggets",
 			"subtitle": "6 stk. med pommes frites og salatmayonaise",
 			"price": 45,
-			"categoryId": 14
+			"categoryId": 15
 		},
 		{
 			"id": 108,
@@ -867,7 +868,7 @@
 			"title": "Nachos",
 			"subtitle": "Med kebab og fyld",
 			"price": 85,
-			"categoryId": 15
+			"categoryId": 14
 		},
 		{
 			"id": 109,
@@ -875,84 +876,99 @@
 			"title": "Nachos",
 			"subtitle": "Med kylling og fyld",
 			"price": 85,
-			"categoryId": 15
+			"categoryId": 14
 		}
 	],
 	"categories": [
 		{
 			"id": 1,
 			"title": "Pizza indbagt",
-			"subtitle": ""
+			"subtitle": "",
+			"imageSrc": "/images/indbagt-pizza.jpeg"
 		},
 		{
 			"id": 2,
 			"title": "Pizza 1/2 indbagt",
-			"subtitle": ""
+			"subtitle": "",
+			"imageSrc": "/images/indbagt-pizza.jpeg"
 		},
 		{
 			"id": 3,
 			"title": "Pizza alm.",
-			"subtitle": ""
+			"subtitle": "",
+			"imageSrc": "/images/pizza-kylling.jpeg"
 		},
 		{
 			"id": 4,
 			"title": "Pizza stærk",
-			"subtitle": ""
+			"subtitle": "",
+			"imageSrc": "/images/pizza-chili.jpeg"
 		},
 		{
 			"id": 5,
 			"title": "Pizza vegetar",
-			"subtitle": ""
+			"subtitle": "",
+			"imageSrc": "/images/pizza-chili.jpeg"
 		},
 		{
 			"id": 6,
 			"title": "Ekstra tilbehør",
-			"subtitle": ""
+			"subtitle": "",
+			"imageSrc": "/images/menu.jpeg"
 		},
 		{
 			"id": 7,
 			"title": "Husets specialiteter",
-			"subtitle": ""
+			"subtitle": "",
+			"imageSrc": "/images/graesk-boef.jpeg"
 		},
 		{
 			"id": 8,
 			"title": "Byens pastaretter",
-			"subtitle": ""
+			"subtitle": "",
+			"imageSrc": "/images/pasta.jpeg"
 		},
 		{
 			"id": 9,
 			"title": "Byens saftige burgere",
-			"subtitle": "200 gr. hakket oksekød"
+			"subtitle": "200 gr. hakket oksekød",
+			"imageSrc": "/images/indbagt-pizza.jpeg"
 		},
 		{
 			"id": 10,
 			"title": "Pitabrød hjemmebagt",
-			"subtitle": "Alle pitabrød er med salat og dressing"
+			"subtitle": "Alle pitabrød er med salat og dressing",
+			"imageSrc": "/images/pita-kebab.jpeg"
 		},
 		{
 			"id": 11,
 			"title": "Durum rulle",
-			"subtitle": ""
+			"subtitle": "",
+			"imageSrc": "/images/pita-kebab.jpeg"
 		},
 		{
 			"id": 12,
 			"title": "Pommes frites",
-			"subtitle": "uden dressing"
+			"subtitle": "uden dressing",
+			"imageSrc": "/images/menu.jpeg"
 		},
 		{
 			"id": 13,
 			"title": "Salater",
-			"subtitle": "Alle salater med iceberg, tomat, agurk og dressing"
+			"subtitle": "Alle salater med iceberg, tomat, agurk og dressing",
+			"imageSrc": "/images/salat.jpeg"
 		},
 		{
 			"id": 14,
-			"title": "Børnemenu",
-			"subtitle": ""
+			"title": "Nachos",
+			"subtitle": "Majstorrillachips toppet med masser af smeltet ost, tacosauce, jalapeños og creme fraice dressing",
+			"imageSrc": "/images/nachos.jpeg"
 		},
 		{
 			"id": 15,
-			"title": "Nachos",
-			"subtitle": "Majstorrillachips toppet med masser af smeltet ost, tacosauce, jalapeños og creme fraice dressing"
+			"title": "Børnemenu",
+			"subtitle": "",
+			"imageSrc": "/images/pizza-boern.jpeg"
 		}
 	]
 }

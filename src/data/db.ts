@@ -2,11 +2,13 @@
 import Dexie, { Table } from 'dexie';
 import Category from '../Models/Category';
 import Product from '../Models/Product';
+import Version from '../Models/Version';
 import data from "./menu.json";
 
 export class MenuDB extends Dexie {
     // 'friends' is added by dexie when declaring the stores()
     // We just tell the typing system this is the case
+    versions!: Table<Version>
     products!: Table<Product>;
     categories!: Table<Category>;
     initialized: boolean = false;
@@ -17,8 +19,9 @@ export class MenuDB extends Dexie {
             return
         this.initializing = true
         var count = await this.products.count()
+        var newestVersion = await this.versions.orderBy("version").reverse().first();
 
-        if (count !== data.products.length) {
+        if (count !== data.products.length || (newestVersion?.version && newestVersion.version < data.version) || !newestVersion) {
             await this.products.each(product => {
                 for (let index = 0; index < data.products.length; index++) {
                     if (data.products[index].id === product.id) {
@@ -33,6 +36,7 @@ export class MenuDB extends Dexie {
 
             await this.products.bulkAdd(data.products as Product[]);
             await this.categories.bulkAdd(data.categories);
+            await this.versions.add({ version: data.version } as Version)
         }
 
         this.initializing = false
@@ -41,9 +45,10 @@ export class MenuDB extends Dexie {
 
     constructor() {
         super('byenspizza');
-        this.version(1).stores({
+        this.version(data.version).stores({
             products: '++id, number, title, subtitle, categoryId, isFavorite', // Primary key and indexed props
             categories: "++id, name",
+            versions: "++id, version"
         });
     }
 }

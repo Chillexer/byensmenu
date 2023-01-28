@@ -6,13 +6,7 @@ import { closestCategoryAtom } from "../atoms/SearchAtom";
 import Category from "../Models/Category";
 import Section from "./Section";
 
-export default function Scroller({
-	setSection, //this is the mutator method we set earlier
-	categories,
-}: {
-	setSection: (section: number) => void;
-	categories: Category[];
-}) {
+export default function Scroller({ categories }: { categories: Category[] }) {
 	function SectionPositionHook({
 		sectionRef,
 		sectionIndex,
@@ -23,7 +17,7 @@ export default function Scroller({
 		const [closestCategory, setClosestCategory] = useRecoilState(closestCategoryAtom);
 		useEffect(() => {
 			if (closestCategory.isScrolling && closestCategory.closestCategory === sectionIndex) {
-				window.scrollTo({ behavior: "auto", left: 0, top: sectionRef.current.offsetTop - 60 });
+				window.scrollTo({ behavior: "smooth", left: 0, top: sectionRef.current.offsetTop - 60 });
 				var temp = { ...closestCategory };
 				temp.isScrolling = false;
 				setClosestCategory(temp);

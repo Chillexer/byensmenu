@@ -1,10 +1,13 @@
 import { useLiveQuery } from "dexie-react-hooks";
 import { useState } from "react";
-import { RecoilRoot } from "recoil";
+import { RecoilRoot, useRecoilState } from "recoil";
 import "./App.css";
+import { isPopupOpenAtom } from "./atoms/PopupAtom";
+import Info from "./components/Info";
 import Navbar from "./components/Navbar";
 import Scroller from "./components/Scroller";
 import Search from "./components/Search";
+import SliderWrapper from "./components/Slider";
 import { db } from "./data/db";
 
 function App() {
@@ -13,16 +16,18 @@ function App() {
 		return await db.categories.toArray();
 	});
 
-	const [section, setSection] = useState(0);
-
 	if (categories)
 		return (
 			<div className="bg-gray-50">
 				<RecoilRoot>
 					<Navbar />
+					<SliderWrapper />
+					<Info />
 					<Search categories={categories} />
 
-					<Scroller categories={categories} setSection={setSection} />
+					<div className="flex flex-col items-center px-4 md:px-24 lg:px-48 max-w-none xl:px-56">
+						<Scroller categories={categories} />
+					</div>
 				</RecoilRoot>
 			</div>
 		);

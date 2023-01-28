@@ -4,6 +4,8 @@ import { db } from "../data/db";
 import Product from "../Models/Product";
 type Props = {
 	product: Product;
+	index: number;
+	count: number;
 };
 
 const currencyFormat = new Intl.NumberFormat("da-dk", {
@@ -13,15 +15,29 @@ const currencyFormat = new Intl.NumberFormat("da-dk", {
 	maximumFractionDigits: 2,
 }).resolvedOptions();
 
-export default function Card({ product }: Props) {
+export default function Card({ product, index, count }: Props) {
 	const handleToggleLike = () => {
 		db.products.get({ id: product.id }).then((p) => {
 			db.products.update(product, { isFavorite: !product.isFavorite });
 		});
 	};
 
+	const calculateClasses = (): string => {
+		if (index % 2 === 1) {
+			if (index < count - 2) return "border-l border-r border-b xl:border-l-0";
+			else if (index === count - 1)
+				return "rounded-b-md border-l border-r border-b xl:border-l-0 xl:rounded-bl-none xl:rounded-br-md";
+			else return "border-l border-r border-b xl:border-l-0 xl:rounded-br-md";
+		} else {
+			if (index < count - 2) return "border-l border-r border-b";
+			else if (count % 2 === 1) return "border-l border-r border-b rounded-b-md";
+			else return "border-l border-r border-b xl:rounded-bl-md";
+		}
+	};
+
 	return (
-		<div className="flex justify-between w-full px-4 py-4 bg-white border border-gray-400 rounded-xl card">
+		<div
+			className={`${calculateClasses()} flex justify-between w-full px-4 py-4 bg-white border-gray-300 card`}>
 			<div>
 				{product.title !== "" && (
 					<h1 className="row-start-1 text-lg font-bold">{`${
@@ -29,7 +45,7 @@ export default function Card({ product }: Props) {
 					} ${product.title}`}</h1>
 				)}
 				<p className="row-start-2 text-gray-700">{product.subtitle}</p>
-				<p className="row-start-3 text-lg font-bold">
+				<p className="row-start-3 text-lg font-medium text-red-600">
 					{product.price.toLocaleString("da-dk", currencyFormat)}
 				</p>
 			</div>
@@ -37,7 +53,10 @@ export default function Card({ product }: Props) {
 				{product.isFavorite ? (
 					<AiFillHeart className="text-red-500 cursor-pointer" onClick={() => handleToggleLike()} />
 				) : (
-					<AiOutlineHeart className="cursor-pointer" onClick={() => handleToggleLike()} />
+					<AiOutlineHeart
+						className="text-red-500 cursor-pointer"
+						onClick={() => handleToggleLike()}
+					/>
 				)}
 			</div>
 		</div>

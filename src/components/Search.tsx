@@ -44,63 +44,65 @@ const Search = ({ categories }: Props) => {
 
 	return (
 		<div
-			className={`bg-white w-full flex items-center shadow-lg justify-between py-1 px-4 md:px-24 lg:px-48 xl:px-96 ${
+			className={`bg-white w-full shadow-lg py-1 px-4 md:px-24 lg:px-48 xl:px-56 flex justify-center ${
 				offset > searchOffset ? "fixed top-0" : ""
 			}`}
 			ref={searchInput}>
-			<div
-				className={`grid w-full px-2 py-1 items-center searchbar  ${
-					searchToggled
-						? "border border-gray-400 rounded-lg focus-within:border-black hover:bg-gray-100"
-						: "gap-2"
-				}`}>
-				<label htmlFor="search">
-					<AiOutlineSearch
-						onClick={() => setSearchToggled(true)}
-						className={`w-10 h-10 p-[4px] rounded-full text-black ${
-							searchToggled ? "cursor-text" : "hover:bg-gray-200  bg-gray-100 cursor-pointer"
-						}`}></AiOutlineSearch>
-				</label>
-				{searchToggled ? (
-					<>
-						<input
-							id="search"
-							className="w-full h-10 px-1 py-2 rounded-3xl focus:outline-none bg-transparent"
-							type="text"
-							placeholder="Søg"
-							onChange={(e) => setSearch(e.target.value)}></input>
-						<AiOutlineClose
-							onClick={() => {
-								setSearch("");
-								setSearchToggled(false);
-							}}
-							className="w-8 h-8 p-[4px] rounded-full cursor-pointer text-black border-2 border-black"
-						/>
-					</>
-				) : (
-					<div
-						className="flex overflow-y-auto flex-nowrap gap-1 scrollbar-hide"
-						ref={horizontalScroll}>
-						{categories.map((category) => (
-							<div
-								ref={closestCategory.closestCategory === category.id ? closestCategoryRef : null}
-								className={`flex h-10 px-4 items-center whitespace-nowrap rounded-full cursor-pointer ${
-									closestCategory.closestCategory === category.id
-										? "bg-black text-white"
-										: "text-black"
-								}`}
+			<div className="w-full max-w-2xl xl:max-w-4xl">
+				<div
+					className={`grid w-full py-1 items-center searchbar  ${
+						searchToggled
+							? "border border-gray-400 rounded-lg focus-within:border-black hover:bg-gray-100"
+							: "gap-2"
+					}`}>
+					<label htmlFor="search">
+						<AiOutlineSearch
+							onClick={() => setSearchToggled(true)}
+							className={`w-10 h-10 p-[4px] rounded-full text-black ${
+								searchToggled ? "cursor-text" : "hover:bg-gray-200  bg-gray-100 cursor-pointer"
+							}`}></AiOutlineSearch>
+					</label>
+					{searchToggled ? (
+						<>
+							<input
+								id="search"
+								className="w-full h-10 px-1 py-2 bg-transparent rounded-3xl focus:outline-none"
+								type="text"
+								placeholder="Søg"
+								onChange={(e) => setSearch(e.target.value)}></input>
+							<AiOutlineClose
 								onClick={() => {
-									var temp = { ...closestCategory };
-									temp.closestCategory = category.id;
-									temp.isScrolling = true;
-									setClosestCategory(temp);
+									setSearch("");
+									setSearchToggled(false);
 								}}
-								key={category.id}>
-								{category.title}
-							</div>
-						))}
-					</div>
-				)}
+								className="w-8 h-8 p-[4px] rounded-full cursor-pointer text-black border-2 border-black"
+							/>
+						</>
+					) : (
+						<div
+							className="flex gap-1 overflow-y-auto flex-nowrap scrollbar-hide"
+							ref={horizontalScroll}>
+							{categories.map((category) => (
+								<div
+									ref={closestCategory.closestCategory === category.id ? closestCategoryRef : null}
+									className={`flex h-10 px-4 items-center whitespace-nowrap rounded-full cursor-pointer ${
+										closestCategory.closestCategory === category.id
+											? "bg-black text-white"
+											: "text-black"
+									}`}
+									onClick={() => {
+										var temp = { ...closestCategory };
+										temp.closestCategory = category.id;
+										temp.isScrolling = true;
+										setClosestCategory(temp);
+									}}
+									key={category.id}>
+									{category.title}
+								</div>
+							))}
+						</div>
+					)}
+				</div>
 			</div>
 		</div>
 	);
