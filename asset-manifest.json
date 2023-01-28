@@ -1,14 +1,33 @@
 {
   "files": {
-    "main.css": "/byensmenu/static/css/main.0f108cdf.css",
-    "main.js": "/byensmenu/static/js/main.e76a08d7.js",
+    "main.css": "/byensmenu/static/css/main.880842e2.css",
+    "main.js": "/byensmenu/static/js/main.44e44235.js",
+    "static/media/pasta.jpeg": "/byensmenu/static/media/pasta.118c5d3411271d1b236a.jpeg",
+    "static/media/pizza-pepperoni.jpeg": "/byensmenu/static/media/pizza-pepperoni.92447791afd8104ec075.jpeg",
+    "static/media/pizza-chili.jpeg": "/byensmenu/static/media/pizza-chili.ec6d9c359782e2749e3a.jpeg",
+    "static/media/pita-kebab.jpeg": "/byensmenu/static/media/pita-kebab.eeffd819fb462d177135.jpeg",
+    "static/media/pizza-bolognaise.jpeg": "/byensmenu/static/media/pizza-bolognaise.b00edb6ea0b881dcd6b9.jpeg",
+    "static/media/mand.jpeg": "/byensmenu/static/media/mand.6572417cbeb75aa0f772.jpeg",
+    "static/media/italiensk-pizza.jpeg": "/byensmenu/static/media/italiensk-pizza.72738da7260d39e0f312.jpeg",
+    "static/media/salat.jpeg": "/byensmenu/static/media/salat.e7fd6a842f74e0973178.jpeg",
+    "static/media/graesk-boef.jpeg": "/byensmenu/static/media/graesk-boef.7f85fd2925b1cffb88ed.jpeg",
+    "static/media/pizza-kylling.jpeg": "/byensmenu/static/media/pizza-kylling.77e13a647ed3993b496e.jpeg",
+    "static/media/oerby-special.jpeg": "/byensmenu/static/media/oerby-special.310d962b14d1349514db.jpeg",
+    "static/media/pizza-boern.jpeg": "/byensmenu/static/media/pizza-boern.e271bf8ecb05d3b5732e.jpeg",
+    "static/media/indbagt-pizza.jpeg": "/byensmenu/static/media/indbagt-pizza.362aa30b9c47c6afc893.jpeg",
+    "static/media/nachos.jpeg": "/byensmenu/static/media/nachos.dfb405d1c0c8e1fed18f.jpeg",
     "service-worker.js": "/byensmenu/service-worker.js",
+    "static/media/menu.jpeg": "/byensmenu/static/media/menu.bc7ebb7656d5c643b878.jpeg",
+    "static/media/slick.svg": "/byensmenu/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/byensmenu/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/byensmenu/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/byensmenu/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/byensmenu/index.html",
-    "main.0f108cdf.css.map": "/byensmenu/static/css/main.0f108cdf.css.map",
-    "main.e76a08d7.js.map": "/byensmenu/static/js/main.e76a08d7.js.map"
+    "main.880842e2.css.map": "/byensmenu/static/css/main.880842e2.css.map",
+    "main.44e44235.js.map": "/byensmenu/static/js/main.44e44235.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f108cdf.css",
-    "static/js/main.e76a08d7.js"
+    "static/css/main.880842e2.css",
+    "static/js/main.44e44235.js"
   ]
 }
