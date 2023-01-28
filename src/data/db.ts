@@ -21,7 +21,7 @@ export class MenuDB extends Dexie {
         var count = await this.products.count()
         var newestVersion = await this.versions.orderBy("version").reverse().first();
 
-        if (count !== data.products.length || (newestVersion?.version && newestVersion.version < data.version) || !newestVersion) {
+        if (count !== data.products.length || (newestVersion?.version && newestVersion.version < data.version) || newestVersion === undefined) {
             await this.products.each(product => {
                 for (let index = 0; index < data.products.length; index++) {
                     if (data.products[index].id === product.id) {
