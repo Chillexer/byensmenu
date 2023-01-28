@@ -1,9 +1,8 @@
 import React from "react";
 import { FaDirections, FaSmile } from "react-icons/fa";
 import { AiOutlineClockCircle, AiOutlinePhone } from "react-icons/ai";
-type Props = {};
 
-function PopupInfo({}: Props) {
+function PopupInfo() {
 	return (
 		<div className="flex flex-col ">
 			<div className="flex items-center gap-4 p-2 mr-2 border-b">

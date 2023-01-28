@@ -1,8 +1,6 @@
 import { useLiveQuery } from "dexie-react-hooks";
-import { useState } from "react";
-import { RecoilRoot, useRecoilState } from "recoil";
+import { RecoilRoot } from "recoil";
 import "./App.css";
-import { isPopupOpenAtom } from "./atoms/PopupAtom";
 import Info from "./components/Info";
 import Navbar from "./components/Navbar";
 import Scroller from "./components/Scroller";

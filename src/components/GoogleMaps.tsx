@@ -1,9 +1,4 @@
-import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
-import React from "react";
-
-type Props = {};
-
-const GoogleMaps = (props: Props) => {
+const GoogleMaps = () => {
 	return (
 		<div className="flex justify-center">
 			<iframe

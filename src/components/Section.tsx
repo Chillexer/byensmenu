@@ -1,7 +1,6 @@
 import { useLiveQuery } from "dexie-react-hooks";
-import React, { Ref } from "react";
+import React from "react";
 import { useRecoilState } from "recoil";
-import { isPopupOpenAtom } from "../atoms/PopupAtom";
 import { searchAtom } from "../atoms/SearchAtom";
 import { db } from "../data/db";
 import Category from "../Models/Category";
@@ -13,7 +12,6 @@ type Props = {
 };
 
 const Section = React.forwardRef<HTMLElement, Props>(({ category }: Props, ref) => {
-	const [isPopupOpen] = useRecoilState(isPopupOpenAtom);
 	const [search] = useRecoilState(searchAtom);
 	const products = useLiveQuery(
 		() =>
