@@ -1,11 +1,11 @@
 {
-	"version": 1,
+	"version": 2,
 	"products": [
 		{
 			"id": 1,
 			"number": "1",
 			"title": "Bolognaise",
-			"subtitle": "tomatsauce, ost, kødsauce og spaghetti",
+			"subtitle": "Tomatsauce, ost, kødsauce og spaghetti",
 			"price": 79,
 			"categoryId": 1
 		},
@@ -13,7 +13,7 @@
 			"id": 2,
 			"number": "2",
 			"title": "Calzone",
-			"subtitle": "tomatsauce, ost og skinke",
+			"subtitle": "Tomatsauce, ost og skinke",
 			"price": 75,
 			"categoryId": 1
 		},
@@ -21,7 +21,7 @@
 			"id": 3,
 			"number": "3",
 			"title": "Calzone",
-			"subtitle": "tomatsauce, ost, skinke og champignon",
+			"subtitle": "Tomatsauce, ost, skinke og champignon",
 			"price": 82,
 			"categoryId": 1
 		},
@@ -29,7 +29,7 @@
 			"id": 4,
 			"number": "4",
 			"title": "UFO dobbelt dej",
-			"subtitle": "tomatsauce, ost, kødsauce og spaghetti",
+			"subtitle": "Tomatsauce, ost, kødsauce og spaghetti",
 			"price": 95,
 			"categoryId": 1
 		},
@@ -37,7 +37,7 @@
 			"id": 5,
 			"number": "5",
 			"title": "Byens pizza",
-			"subtitle": "tomatsauce, ost, kødstrimler, løg, paprika, champignon og bearnaise",
+			"subtitle": "Tomatsauce, ost, kødstrimler, løg, paprika, champignon og bearnaise",
 			"price": 92,
 			"categoryId": 2
 		},
@@ -45,7 +45,7 @@
 			"id": 6,
 			"number": "6",
 			"title": "Matador",
-			"subtitle": "tomatsauce, ost, oksefilet og løg",
+			"subtitle": "Tomatsauce, ost, oksefilet og løg",
 			"price": 84,
 			"categoryId": 2
 		},
