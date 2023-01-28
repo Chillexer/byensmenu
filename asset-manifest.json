@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/byensmenu/static/css/main.880842e2.css",
-    "main.js": "/byensmenu/static/js/main.105e8f58.js",
+    "main.js": "/byensmenu/static/js/main.cab7d402.js",
     "static/media/pasta.jpeg": "/byensmenu/static/media/pasta.118c5d3411271d1b236a.jpeg",
     "static/media/pizza-pepperoni.jpeg": "/byensmenu/static/media/pizza-pepperoni.92447791afd8104ec075.jpeg",
     "static/media/pizza-chili.jpeg": "/byensmenu/static/media/pizza-chili.ec6d9c359782e2749e3a.jpeg",
@@ -24,10 +24,10 @@
     "static/media/slick.woff": "/byensmenu/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/byensmenu/index.html",
     "main.880842e2.css.map": "/byensmenu/static/css/main.880842e2.css.map",
-    "main.105e8f58.js.map": "/byensmenu/static/js/main.105e8f58.js.map"
+    "main.cab7d402.js.map": "/byensmenu/static/js/main.cab7d402.js.map"
   },
   "entrypoints": [
     "static/css/main.880842e2.css",
-    "static/js/main.105e8f58.js"
+    "static/js/main.cab7d402.js"
   ]
 }
