@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/byensmenu/static/css/main.880842e2.css",
-    "main.js": "/byensmenu/static/js/main.6033e5d0.js",
+    "main.css": "/byensmenu/static/css/main.67f41952.css",
+    "main.js": "/byensmenu/static/js/main.c8f4e2f7.js",
     "static/media/pasta.jpeg": "/byensmenu/static/media/pasta.118c5d3411271d1b236a.jpeg",
     "static/media/pizza-pepperoni.jpeg": "/byensmenu/static/media/pizza-pepperoni.92447791afd8104ec075.jpeg",
     "static/media/pizza-chili.jpeg": "/byensmenu/static/media/pizza-chili.ec6d9c359782e2749e3a.jpeg",
@@ -23,11 +23,11 @@
     "static/media/slick.ttf": "/byensmenu/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/byensmenu/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/byensmenu/index.html",
-    "main.880842e2.css.map": "/byensmenu/static/css/main.880842e2.css.map",
-    "main.6033e5d0.js.map": "/byensmenu/static/js/main.6033e5d0.js.map"
+    "main.67f41952.css.map": "/byensmenu/static/css/main.67f41952.css.map",
+    "main.c8f4e2f7.js.map": "/byensmenu/static/js/main.c8f4e2f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.880842e2.css",
-    "static/js/main.6033e5d0.js"
+    "static/css/main.67f41952.css",
+    "static/js/main.c8f4e2f7.js"
   ]
 }
