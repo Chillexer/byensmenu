@@ -49,7 +49,7 @@ function Info() {
 					</a>
 					<FaDirections
 						onClick={() => setIsPopupOpen(true)}
-						className="w-10 h-10 p-1 bg-gray-100 rounded-full hover:bg-gray-200 text-Black"
+						className="w-10 h-10 p-1 bg-gray-100 rounded-full cursor-pointer hover:bg-gray-200 text-Black"
 					/>
 				</div>
 			</header>
