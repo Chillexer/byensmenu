@@ -50,10 +50,10 @@ const Search = ({ categories }: Props) => {
 			ref={searchInput}>
 			<div className="w-full max-w-2xl xl:max-w-4xl">
 				<div
-					className={`grid w-full py-1 items-center searchbar  ${
+					className={`grid w-full py-1 items-center searchbar border  ${
 						searchToggled
-							? "border border-gray-400 rounded-lg focus-within:border-black hover:bg-gray-100"
-							: "gap-2"
+							? "border-gray-400 rounded-md focus-within:border-black border-st hover:bg-gray-100 pr-2 pl-1"
+							: "gap-2 border-white"
 					}`}>
 					<label htmlFor="search">
 						<AiOutlineSearch

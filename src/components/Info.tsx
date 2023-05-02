@@ -21,10 +21,6 @@ function Info() {
 	};
 
 	const getDay = () => {
-		const opendays = {
-			everyday: "11:00 - 22:00",
-			sunday: "12:00 - 22:00",
-		};
 		var date = new Date(Date.now());
 		if (
 			(date.getDay() === 0 && date.getHours() < 22) ||

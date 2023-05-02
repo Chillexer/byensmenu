@@ -26,8 +26,6 @@ export class MenuDB extends Dexie {
                 for (let index = 0; index < data.products.length; index++) {
                     if (data.products[index].id === product.id) {
                         (data.products[index] as Product).isFavorite = product.isFavorite;
-                        if (product.isFavorite)
-                            console.log(data.products[index])
                     }
                 }
             })

@@ -37,7 +37,6 @@ function SliderWrapper() {
 			slidesToScroll:
 				window.window.innerWidth > 600 ? (window.window.innerWidth > 1000 ? 5 : 4) : 3,
 		});
-		console.log(window.window.innerWidth > 600 ? (window.window.innerWidth > 1000 ? 5 : 4) : 3);
 	};
 
 	useEffect(() => {
