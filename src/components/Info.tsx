@@ -8,8 +8,8 @@ import GoogleMaps from "./GoogleMaps";
 import PopupInfo from "./PopupInfo";
 
 const opendays = {
-	everyday: "11:00 - 22:00",
-	sunday: "12:00 - 22:00",
+	everyday: "11:00 - 21:00",
+	sunday: "12:00 - 21:00",
 };
 
 function Info() {
@@ -23,8 +23,8 @@ function Info() {
 	const getDay = () => {
 		var date = new Date(Date.now());
 		if (
-			(date.getDay() === 0 && date.getHours() < 22) ||
-			(date.getDay() === 6 && date.getHours() >= 22)
+			(date.getDay() === 0 && date.getHours() < 21) ||
+			(date.getDay() === 6 && date.getHours() >= 21)
 		)
 			return opendays.sunday;
 		else return opendays.everyday;
