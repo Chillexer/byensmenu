@@ -671,68 +671,12 @@
 			"categoryId": 11
 		},
 		{
-			"id": 84,
-			"number": "78",
-			"title": "Pizza bambino",
-			"subtitle": "tomatsovs, ost og skinke",
-			"price": 48,
-			"categoryId": 12
-		},
-		{
-			"id": 85,
-			"number": "78a",
-			"title": "Børne pizza",
-			"subtitle": "tomatsovs, ost og pølser",
-			"price": 48,
-			"categoryId": 12
-		},
-		{
-			"id": 86,
-			"number": "79",
-			"title": "Pizza Turtles",
-			"subtitle": "tomatsovs, ost og kødsauce",
-			"price": 48,
-			"categoryId": 12
-		},
-		{
-			"id": 87,
-			"number": "79a",
-			"title": "Pizza pepperoni",
-			"subtitle": "tomatsovs, ost og pepperoni",
-			"price": 48,
-			"categoryId": 12
-		},
-		{
-			"id": 88,
-			"number": "80",
-			"title": "Spaghetti",
-			"subtitle": "med kødsovs",
-			"price": 48,
-			"categoryId": 12
-		},
-		{
-			"id": 89,
-			"number": "81",
-			"title": "Fiskefilet",
-			"subtitle": "1 stk. med pommes frites og remoulade",
-			"price": 48,
-			"categoryId": 12
-		},
-		{
-			"id": 90,
-			"number": "82",
-			"title": "Kylling nuggets",
-			"subtitle": "6 stk. med pommes frites og salatmayonnaise",
-			"price": 48,
-			"categoryId": 12
-		},
-		{
 			"id": 108,
 			"number": "101",
 			"title": "Nachos",
 			"subtitle": "Med kebab og fyld",
 			"price": 90,
-			"categoryId": 13
+			"categoryId": 12
 		},
 		{
 			"id": 109,
@@ -740,6 +684,62 @@
 			"title": "Nachos",
 			"subtitle": "Med kylling og fyld",
 			"price": 90,
+			"categoryId": 12
+		},
+		{
+			"id": 84,
+			"number": "78",
+			"title": "Pizza bambino",
+			"subtitle": "tomatsovs, ost og skinke",
+			"price": 48,
+			"categoryId": 13
+		},
+		{
+			"id": 85,
+			"number": "78a",
+			"title": "Børne pizza",
+			"subtitle": "tomatsovs, ost og pølser",
+			"price": 48,
+			"categoryId": 13
+		},
+		{
+			"id": 86,
+			"number": "79",
+			"title": "Pizza Turtles",
+			"subtitle": "tomatsovs, ost og kødsauce",
+			"price": 48,
+			"categoryId": 13
+		},
+		{
+			"id": 87,
+			"number": "79a",
+			"title": "Pizza pepperoni",
+			"subtitle": "tomatsovs, ost og pepperoni",
+			"price": 48,
+			"categoryId": 13
+		},
+		{
+			"id": 88,
+			"number": "80",
+			"title": "Spaghetti",
+			"subtitle": "med kødsovs",
+			"price": 48,
+			"categoryId": 13
+		},
+		{
+			"id": 89,
+			"number": "81",
+			"title": "Fiskefilet",
+			"subtitle": "1 stk. med pommes frites og remoulade",
+			"price": 48,
+			"categoryId": 13
+		},
+		{
+			"id": 90,
+			"number": "82",
+			"title": "Kylling nuggets",
+			"subtitle": "6 stk. med pommes frites og salatmayonnaise",
+			"price": 48,
 			"categoryId": 13
 		}
 	],
@@ -760,67 +760,67 @@
 			"id": 3,
 			"title": "Pizza alm.",
 			"subtitle": "",
-			"imageSrc": "/images/pizza-kylling.jpeg"
+			"imageSrc": "/images/chili-pizza.jpg"
 		},
 		{
 			"id": 4,
 			"title": "Pizza stærk",
 			"subtitle": "",
-			"imageSrc": "/images/pizza-chili.jpeg"
+			"imageSrc": "/images/chili-pizza.jpg"
 		},
 		{
 			"id": 5,
 			"title": "Pizza vegetar",
 			"subtitle": "",
-			"imageSrc": "/images/pizza-chili.jpeg"
+			"imageSrc": "/images/veganpizza.jpg"
 		},
 		{
 			"id": 6,
 			"title": "Ekstra tilbehør",
 			"subtitle": "",
-			"imageSrc": "/images/menu.jpeg"
+			"imageSrc": "/images/pizza-toppings.jpg"
 		},
 		{
 			"id": 7,
 			"title": "Pommes frites",
 			"subtitle": "",
-			"imageSrc": "/images/menu.jpeg"
+			"imageSrc": "/images/pommes.jpg"
 		},
 		{
 			"id": 8,
 			"title": "Byens retter",
 			"subtitle": "",
-			"imageSrc": "/images/graesk-boef.jpeg"
+			"imageSrc": "/images/kyllingpommes.jpg"
 		},
 		{
 			"id": 9,
 			"title": "Pitabrød hjemmebagt (stor)",
 			"subtitle": "Alle pitabrød er med salat og dressing",
-			"imageSrc": "/images/pita-kebab.jpeg"
+			"imageSrc": "/images/kebab-pita.jpg"
 		},
 		{
 			"id": 10,
 			"title": "Dürüm rulle (Hjemmebagt)",
 			"subtitle": "",
-			"imageSrc": "/images/pita-kebab.jpeg"
+			"imageSrc": "/images/durum-pommes-frites.jpg"
 		},
 		{
 			"id": 11,
 			"title": "Salater",
 			"subtitle": "Alle salater er med Iceberg, tomat, agurk og dressing",
-			"imageSrc": "/images/salat.jpeg"
+			"imageSrc": "/images/kebabsalatkyllingfraiche.jpg"
 		},
 		{
 			"id": 12,
-			"title": "Børnemenu",
-			"subtitle": "",
-			"imageSrc": "/images/pizza-boern.jpeg"
+			"title": "Nachos",
+			"subtitle": "Majstortillachips toppet med masser af smeltet ost, tacosauce og creme frâiche dressing",
+			"imageSrc": "/images/nachos.jpg"
 		},
 		{
 			"id": 13,
-			"title": "Nachos",
-			"subtitle": "Majstortillachips toppet med masser af smeltet ost, tacosauce og creme frâiche dressing",
-			"imageSrc": "/images/nachos.jpeg"
+			"title": "Børnemenu",
+			"subtitle": "",
+			"imageSrc": "/images/spaghetti.jpeg"
 		}
 	]
 }
