@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import personale_header from "../images/personale-header.jpeg";
-import personale_viser_pizza from "../images/personale-viser-pizza.jpeg";
-import personale_2 from "../images/personale-2.jpeg";
+import personale_header from "../images/personale-2.jpg";
+import personale_viser_pizza from "../images/personale-viser-pizza.png";
+import personale_2 from "../images/personale-2.png";
+import personale_3 from "../images/personale-3.jpg";
 // import mand from "../images/mand.jpeg";
 // import menu from "../images/menu.jpeg";
 // import nachos from "../images/nachos.jpeg";
@@ -25,8 +26,8 @@ function SliderWrapper() {
 		speed: 1000,
 		slidesToShow: window.window.innerWidth > 600 ? (window.window.innerWidth > 1000 ? 3 : 2) : 1,
 		slidesToScroll: window.window.innerWidth > 600 ? (window.window.innerWidth > 1000 ? 3 : 2) : 1,
-		autoplay: false,
-		autoplaySpeed: 10000,
+		autoplay: true,
+		autoplaySpeed: 3000,
 		pauseOnHover: true,
 	});
 
@@ -58,6 +59,7 @@ function SliderWrapper() {
 					src={personale_viser_pizza}
 				/>
 				<img className="object-cover w-full h-40 md:h-60" alt="personale" src={personale_2} />
+				<img className="object-cover w-full h-40 md:h-60" alt="personale" src={personale_3} />
 			</Slider>
 		</div>
 	);

@@ -1,6 +1,6 @@
 import React from "react";
 import { AiOutlineClockCircle, AiOutlinePhone } from "react-icons/ai";
-import { FaDirections } from "react-icons/fa";
+import { IoInformation } from "react-icons/io5";
 import Popup from "reactjs-popup";
 import { useRecoilState } from "recoil";
 import { isPopupOpenAtom } from "../atoms/PopupAtom";
@@ -47,7 +47,7 @@ function Info() {
 					<a href="tel:+4548793886">
 						<AiOutlinePhone className="w-10 h-10 p-1 bg-gray-100 rounded-full hover:bg-gray-200 text-Black" />
 					</a>
-					<FaDirections
+					<IoInformation
 						onClick={() => setIsPopupOpen(true)}
 						className="w-10 h-10 p-1 bg-gray-100 rounded-full cursor-pointer hover:bg-gray-200 text-Black"
 					/>
