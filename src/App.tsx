@@ -10,11 +10,6 @@ import data from "./data/menu.json";
 function App() {
 	const { categories } = data;
 
-	// useLiveQuery(async () => {
-	// 	await db.initialize();
-	// 	return await db.categories.toArray();
-	// });
-
 	if (categories)
 		return (
 			<div className="bg-gray-50">
