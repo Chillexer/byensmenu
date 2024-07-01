@@ -1,8 +1,8 @@
 {
-	"version": 4,
+	"version": 5,
 	"products": [
 		{
-			"id": 1,
+			"id": 100,
 			"number": "1",
 			"title": "Bolognaise",
 			"subtitle": "tomatsovs, ost, kødsauce og spaghetti",
@@ -10,7 +10,7 @@
 			"categoryId": 1
 		},
 		{
-			"id": 2,
+			"id": 101,
 			"number": "2",
 			"title": "Calzone",
 			"subtitle": "tomatsovs, ost og skinke",
@@ -18,7 +18,7 @@
 			"categoryId": 1
 		},
 		{
-			"id": 3,
+			"id": 102,
 			"number": "3",
 			"title": "Calzone",
 			"subtitle": "tomatsovs, ost, skinke og champignon",
@@ -26,7 +26,7 @@
 			"categoryId": 1
 		},
 		{
-			"id": 4,
+			"id": 103,
 			"number": "4",
 			"title": "UFO dobbelt dej",
 			"subtitle": "tomatsovs, ost, skinke, rejer og champignon",
@@ -34,7 +34,7 @@
 			"categoryId": 1
 		},
 		{
-			"id": 5,
+			"id": 200,
 			"number": "5",
 			"title": "Byens pizza",
 			"subtitle": "tomatsovs, ost, kødstrimler, løg, paprika, champignon og bearnaise",
@@ -42,7 +42,7 @@
 			"categoryId": 2
 		},
 		{
-			"id": 6,
+			"id": 300,
 			"number": "5a",
 			"title": "Møllestien",
 			"subtitle": "tomatsovs, ost, kødstrimler, løg, paprika, champignon og bearnaise",
@@ -50,7 +50,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 7,
+			"id": 301,
 			"number": "8",
 			"title": "Margherita",
 			"subtitle": "tomatsovs, ost + evt. ekstra fyld",
@@ -58,7 +58,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 8,
+			"id": 302,
 			"number": "9",
 			"title": "Vesuvio",
 			"subtitle": "tomatsovs, ost, skinke",
@@ -66,7 +66,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 9,
+			"id": 303,
 			"number": "9a",
 			"title": "HR. ANDERSEN",
 			"subtitle": "tomatsovs, ost, skinke. kebab og bearnaise",
@@ -74,7 +74,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 10,
+			"id": 304,
 			"number": "10",
 			"title": "Capricciosa",
 			"subtitle": "tomatsovs, ost, skinke, champignon",
@@ -82,7 +82,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 11,
+			"id": 305,
 			"number": "10a",
 			"title": "FAMILIEN JACOBSEN",
 			"subtitle": "tomatsovs, ost, skinke, champignon, gorgonzolasovs",
@@ -90,7 +90,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 12,
+			"id": 306,
 			"number": "11",
 			"title": "Quatro Stagioni",
 			"subtitle": "tomatsovs, ost, skinke, champignon og rejer",
@@ -98,7 +98,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 13,
+			"id": 307,
 			"number": "12",
 			"title": "Hawaii",
 			"subtitle": "tomatsovs, ost, skinke, og ananas",
@@ -106,7 +106,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 14,
+			"id": 308,
 			"number": "13",
 			"title": "Florida",
 			"subtitle": "tomatsovs, ost, skinke, pepperoni, bacon",
@@ -114,7 +114,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 15,
+			"id": 309,
 			"number": "13a",
 			"title": "Copenhagen",
 			"subtitle": "tomatsovs, ost, kødstrimler, kødboller, bacon",
@@ -122,7 +122,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 16,
+			"id": 310,
 			"number": "14",
 			"title": "Milano",
 			"subtitle": "tomatsovs, ost, skinke, bacon, æg",
@@ -130,7 +130,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 17,
+			"id": 311,
 			"number": "16a",
 			"title": "Katrines special",
 			"subtitle": "tomatsovs, ost, kartoffelskiver, løg, kebab, pesto",
@@ -138,7 +138,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 18,
+			"id": 312,
 			"number": "18",
 			"title": "Kanutski",
 			"subtitle": "tomatsovs, ost, skinke, og kødboller",
@@ -146,7 +146,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 19,
+			"id": 313,
 			"number": "19a",
 			"title": "Vejby special",
 			"subtitle": "tomatsovs, ost, skinke, pepperoni, bacon, kebab, pølser og dressing",
@@ -154,7 +154,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 20,
+			"id": 314,
 			"number": "20",
 			"title": "Gorgonzola",
 			"subtitle": "tomatsovs, ost, champignon, løg, gorgonzola",
@@ -162,7 +162,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 21,
+			"id": 315,
 			"number": "21",
 			"title": "Torino",
 			"subtitle": "tomatsovs, ost, bacon, hvidløg, kødstrimler, grøn peber, løg",
@@ -170,7 +170,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 22,
+			"id": 316,
 			"number": "21a",
 			"title": "Mozzarella",
 			"subtitle": "tomatsovs, mozzarella, pesto, kylling, rucola",
@@ -178,7 +178,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 23,
+			"id": 317,
 			"number": "22",
 			"title": "Italiano",
 			"subtitle": "tomatsovs, ost, kødsauce, løg",
@@ -186,7 +186,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 24,
+			"id": 318,
 			"number": "24",
 			"title": "La Maria",
 			"subtitle": "tomatsovs, ost, kødsauce, champignon, paprika",
@@ -194,7 +194,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 25,
+			"id": 319,
 			"number": "26",
 			"title": "San pero",
 			"subtitle": "tomatsovs, ost, pepperoni, kødboller, grøn peber",
@@ -202,7 +202,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 26,
+			"id": 320,
 			"number": "27",
 			"title": "Pepperoni",
 			"subtitle": "tomatsovs, ost, pepperoni",
@@ -210,7 +210,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 27,
+			"id": 321,
 			"number": "27a",
 			"title": "Helsinge special",
 			"subtitle": "tomatsovs, ost, pølser, bacon, pepperoni, grøn peber",
@@ -218,7 +218,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 28,
+			"id": 322,
 			"number": "29",
 			"title": "Vognmarken",
 			"subtitle": "tomatsovs, ost, kylling, pepperoni",
@@ -226,7 +226,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 29,
+			"id": 323,
 			"number": "29a",
 			"title": "Ramløse special",
 			"subtitle": "tomatsovs, ost, kylling, bacon og karry dressing",
@@ -234,7 +234,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 30,
+			"id": 324,
 			"number": "30",
 			"title": "Amore",
 			"subtitle": "tomatsovs, ost, kylling, løg, ananas",
@@ -242,7 +242,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 31,
+			"id": 325,
 			"number": "31",
 			"title": "Pompei",
 			"subtitle": "tomatsovs, ost, tun, rejer",
@@ -250,7 +250,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 32,
+			"id": 326,
 			"number": "33",
 			"title": "Napoli",
 			"subtitle": "tomatsovs, ost, pepperoni, bacon, æg",
@@ -258,7 +258,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 33,
+			"id": 327,
 			"number": "34",
 			"title": "Parma",
 			"subtitle": "tomatsovs, ost, kødstrimler, kødboller, løg",
@@ -266,7 +266,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 34,
+			"id": 328,
 			"number": "35",
 			"title": "Mamma rosa",
 			"subtitle": "tomatsovs, ost, kødstrimler, gorgonzola, champignon",
@@ -274,7 +274,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 35,
+			"id": 329,
 			"number": "35a",
 			"title": "Alla parma",
 			"subtitle": "tomatsovs, ost, champignon, lufttørret skinke, gorgonzola",
@@ -282,7 +282,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 36,
+			"id": 330,
 			"number": "36",
 			"title": "Tisvildeleje",
 			"subtitle": "tomatsovs, ost, kødboller, paprika, løg, champignon",
@@ -290,7 +290,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 37,
+			"id": 331,
 			"number": "38",
 			"title": "Romano",
 			"subtitle": "tomatsovs, ost, kødstrimler, champignon, løg",
@@ -298,7 +298,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 38,
+			"id": 332,
 			"number": "44",
 			"title": "Grandiosa",
 			"subtitle": "tomatsovs, ost, paprika, kødstrimler, løg",
@@ -306,7 +306,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 39,
+			"id": 333,
 			"number": "45",
 			"title": "Salli's special",
 			"subtitle": "tomatsovs, ost, kartoffelskiver, dressing og fyld. Vælg mellem kebab, kylling, bacon eller peperoni",
@@ -314,7 +314,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 40,
+			"id": 334,
 			"number": "45a",
 			"title": "Shawarma pizza",
 			"subtitle": "tomatsovs, ost, kebab med salat og dressing",
@@ -322,7 +322,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 41,
+			"id": 335,
 			"number": "85",
 			"title": "Annise special",
 			"subtitle": "tomatsovs, ost, lufttørret skinke, rucola og pesto",
@@ -330,7 +330,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 42,
+			"id": 336,
 			"number": "87",
 			"title": "Ammendrup",
 			"subtitle": "tomatsovs, ost, champignon, kylling, pesto, rucolasalat",
@@ -338,7 +338,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 43,
+			"id": 337,
 			"number": "88",
 			"title": "Tobias special",
 			"subtitle": "tomatsovs, ost, pepperoni, kebab og dressing",
@@ -346,7 +346,7 @@
 			"categoryId": 3
 		},
 		{
-			"id": 44,
+			"id": 338,
 			"number": "88a",
 			"title": "Smidstrup",
 			"subtitle": "tomatsovs, ost, kebab, dressing, pommes frites",
@@ -354,7 +354,15 @@
 			"categoryId": 3
 		},
 		{
-			"id": 45,
+			"id": 339,
+			"number": "20a",
+			"title": "Hvid pizza (uden tomat sovs)",
+			"subtitle": "mascarponecreme, pizza ost, kartoffel skiver, kylling strimler og pesto",
+			"price": 99,
+			"categoryId": 3
+		},
+		{
+			"id": 400,
 			"number": "30a",
 			"title": "Gadekær",
 			"subtitle": "tomatsovs, ost, kylling, bacon, løg, chili, hvidløg",
@@ -362,7 +370,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 46,
+			"id": 401,
 			"number": "32",
 			"title": "Troldebakkerne (Dobbelt bund)",
 			"subtitle": "tomatsovs, ost, pepperoni, kylling, hakket oksekød, chilisovs og dressing",
@@ -370,7 +378,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 47,
+			"id": 402,
 			"number": "36a",
 			"title": "Nachos Pizza",
 			"subtitle": "tomatsovs, ost, tortilla chips, kylling, jalapeños, tacosovs og dressing",
@@ -378,7 +386,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 48,
+			"id": 403,
 			"number": "36b",
 			"title": "Ørby special",
 			"subtitle": "tomatsovs, ost, kylling, mexicansk salami, kebab, hakket kød, hvidløg og jalapeños",
@@ -386,7 +394,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 49,
+			"id": 404,
 			"number": "37",
 			"title": "Alicia",
 			"subtitle": "tomatsovs, ost, rejer, løg, champignon, paprika, chili",
@@ -394,7 +402,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 50,
+			"id": 405,
 			"number": "37a",
 			"title": "Callo",
 			"subtitle": "tomatsovs, ost, pepperoni, kebab, paprika, tacosauce",
@@ -402,7 +410,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 51,
+			"id": 406,
 			"number": "39",
 			"title": "Ungdomshuset",
 			"subtitle": "tomatsovs, ost, kødboller, chili",
@@ -410,7 +418,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 52,
+			"id": 407,
 			"number": "39a",
 			"title": "Flaske finn",
 			"subtitle": "tomatsovs, ost, kødsovs, pepperoni, kylling, jalapeños, hvidløg",
@@ -418,7 +426,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 53,
+			"id": 408,
 			"number": "40",
 			"title": "Mexicano",
 			"subtitle": " tomatsovs, ost, pepperoni, æg, hakket oksekød, chili",
@@ -426,7 +434,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 54,
+			"id": 409,
 			"number": "40a",
 			"title": "Amigo",
 			"subtitle": "tomatsovs, ost, mexicansk salami, hakket oksekød, løg, hvidløg, jalapeños",
@@ -434,7 +442,7 @@
 			"categoryId": 4
 		},
 		{
-			"id": 55,
+			"id": 500,
 			"number": "42",
 			"title": "Vegetar",
 			"subtitle": "tomatsovs, ost, champignon, paprika, ananas, løg, grøn peber",
@@ -442,7 +450,7 @@
 			"categoryId": 5
 		},
 		{
-			"id": 56,
+			"id": 501,
 			"number": "43",
 			"title": "Børker",
 			"subtitle": "tomatsovs, ost, grøn peber, salat ost, løg, kartoffel",
@@ -450,7 +458,7 @@
 			"categoryId": 5
 		},
 		{
-			"id": 57,
+			"id": 502,
 			"number": "58",
 			"title": "Hvidløgsbrød",
 			"subtitle": "med ost og hvidløg",
@@ -458,7 +466,7 @@
 			"categoryId": 5
 		},
 		{
-			"id": 58,
+			"id": 600,
 			"number": "",
 			"title": "",
 			"subtitle": "Tomatsovs, æg, løg, hvidløg, bearnaisesauce, paprika, oliven",
@@ -467,7 +475,7 @@
 			"isExtra": true
 		},
 		{
-			"id": 59,
+			"id": 601,
 			"number": "",
 			"title": "",
 			"subtitle": "Ananas, champignon, rucolasalat, kartoffelskiver",
@@ -476,7 +484,7 @@
 			"isExtra": true
 		},
 		{
-			"id": 60,
+			"id": 602,
 			"number": "",
 			"title": "",
 			"subtitle": "Kødstrimler, skinke, ost, pepperoni, kylling, tun, rejer, kebab, kødsauce, bacon, kødboller, pølser",
@@ -485,7 +493,7 @@
 			"isExtra": true
 		},
 		{
-			"id": 61,
+			"id": 603,
 			"number": "",
 			"title": "",
 			"subtitle": "Salat & dressing på pizza",
@@ -494,7 +502,7 @@
 			"isExtra": true
 		},
 		{
-			"id": 62,
+			"id": 604,
 			"number": "",
 			"title": "",
 			"subtitle": "Gorgonzolasauce",
@@ -503,7 +511,7 @@
 			"isExtra": true
 		},
 		{
-			"id": 63,
+			"id": 700,
 			"number": "",
 			"title": "Pommes frites",
 			"subtitle": "lille",
@@ -511,7 +519,7 @@
 			"categoryId": 7
 		},
 		{
-			"id": 64,
+			"id": 701,
 			"number": "",
 			"title": "Pommes frites",
 			"subtitle": "stor",
@@ -519,7 +527,7 @@
 			"categoryId": 7
 		},
 		{
-			"id": 65,
+			"id": 702,
 			"number": "",
 			"title": "Salatmayonnaise, Remoulade, Ketchup, Dressing, Chilisovs",
 			"subtitle": "",
@@ -527,7 +535,7 @@
 			"categoryId": 7
 		},
 		{
-			"id": 66,
+			"id": 800,
 			"number": "46",
 			"title": "Lasagne",
 			"subtitle": "med kødsovs",
@@ -535,7 +543,7 @@
 			"categoryId": 8
 		},
 		{
-			"id": 67,
+			"id": 801,
 			"number": "48",
 			"title": "Spaghetti",
 			"subtitle": "med kødsovs",
@@ -543,7 +551,7 @@
 			"categoryId": 8
 		},
 		{
-			"id": 68,
+			"id": 802,
 			"number": "49b",
 			"title": "Pasta a la helsinge",
 			"subtitle": "pastapenne med kylling, bacon, tomatflødesovs og gratineret ost",
@@ -551,7 +559,7 @@
 			"categoryId": 8
 		},
 		{
-			"id": 69,
+			"id": 803,
 			"number": "54",
 			"title": "Kebab tallerken",
 			"subtitle": " med pommes frites, creme fraiche dressing og salat",
@@ -559,7 +567,7 @@
 			"categoryId": 8
 		},
 		{
-			"id": 70,
+			"id": 804,
 			"number": "55",
 			"title": "1/2 Kylling",
 			"subtitle": "med pommes frites, salat og remoulade",
@@ -567,7 +575,7 @@
 			"categoryId": 8
 		},
 		{
-			"id": 71,
+			"id": 805,
 			"number": "56",
 			"title": "Fiskefilet",
 			"subtitle": "2 stk. rødspættefileter med pommes frites, salat, remoulade og citron",
@@ -575,7 +583,15 @@
 			"categoryId": 8
 		},
 		{
-			"id": 72,
+			"id": 806,
+			"number": "50g",
+			"title": "Luxus kebab ret",
+			"subtitle": "med vores egen kebabkød i masser af gorgonzolasovs, pomme frites og salat",
+			"price": 139,
+			"categoryId": 8
+		},
+		{
+			"id": 900,
 			"number": "62",
 			"title": "Kødstrimler",
 			"subtitle": "",
@@ -583,7 +599,7 @@
 			"categoryId": 9
 		},
 		{
-			"id": 73,
+			"id": 901,
 			"number": "62a",
 			"title": "Shawarma",
 			"subtitle": "kebab",
@@ -591,7 +607,7 @@
 			"categoryId": 9
 		},
 		{
-			"id": 74,
+			"id": 902,
 			"number": "63",
 			"title": "Kylling",
 			"subtitle": "",
@@ -599,7 +615,7 @@
 			"categoryId": 9
 		},
 		{
-			"id": 75,
+			"id": 903,
 			"number": "63a",
 			"title": "Kylling & bacon",
 			"subtitle": "",
@@ -607,7 +623,7 @@
 			"categoryId": 9
 		},
 		{
-			"id": 76,
+			"id": 904,
 			"number": "65",
 			"title": "Skinke & ost",
 			"subtitle": "",
@@ -615,7 +631,7 @@
 			"categoryId": 9
 		},
 		{
-			"id": 77,
+			"id": 905,
 			"number": "67a",
 			"title": "Falafel",
 			"subtitle": "",
@@ -623,7 +639,7 @@
 			"categoryId": 9
 		},
 		{
-			"id": 78,
+			"id": 1000,
 			"number": "45b",
 			"title": "Shawarma",
 			"subtitle": "salat og dressing",
@@ -631,7 +647,7 @@
 			"categoryId": 10
 		},
 		{
-			"id": 79,
+			"id": 1001,
 			"number": "45f",
 			"title": "Falafel",
 			"subtitle": "salat og dressing",
@@ -639,7 +655,7 @@
 			"categoryId": 10
 		},
 		{
-			"id": 80,
+			"id": 1002,
 			"number": "45k",
 			"title": "Kylling",
 			"subtitle": "salat og dressing",
@@ -647,7 +663,7 @@
 			"categoryId": 10
 		},
 		{
-			"id": 81,
+			"id": 1100,
 			"number": "68k",
 			"title": "Kebab salat",
 			"subtitle": "",
@@ -655,7 +671,7 @@
 			"categoryId": 11
 		},
 		{
-			"id": 82,
+			"id": 1101,
 			"number": "72",
 			"title": "Kylling salat",
 			"subtitle": "",
@@ -663,7 +679,7 @@
 			"categoryId": 11
 		},
 		{
-			"id": 83,
+			"id": 1102,
 			"number": "72a",
 			"title": "Kylling & bacon salat",
 			"subtitle": "",
@@ -671,7 +687,7 @@
 			"categoryId": 11
 		},
 		{
-			"id": 108,
+			"id": 1200,
 			"number": "101",
 			"title": "Nachos",
 			"subtitle": "Med kebab og fyld",
@@ -679,7 +695,7 @@
 			"categoryId": 12
 		},
 		{
-			"id": 109,
+			"id": 1201,
 			"number": "103",
 			"title": "Nachos",
 			"subtitle": "Med kylling og fyld",
@@ -687,7 +703,7 @@
 			"categoryId": 12
 		},
 		{
-			"id": 84,
+			"id": 1300,
 			"number": "78",
 			"title": "Pizza bambino",
 			"subtitle": "tomatsovs, ost og skinke",
@@ -695,7 +711,7 @@
 			"categoryId": 13
 		},
 		{
-			"id": 85,
+			"id": 1301,
 			"number": "78a",
 			"title": "Børne pizza",
 			"subtitle": "tomatsovs, ost og pølser",
@@ -703,7 +719,7 @@
 			"categoryId": 13
 		},
 		{
-			"id": 86,
+			"id": 1302,
 			"number": "79",
 			"title": "Pizza Turtles",
 			"subtitle": "tomatsovs, ost og kødsauce",
@@ -711,7 +727,7 @@
 			"categoryId": 13
 		},
 		{
-			"id": 87,
+			"id": 1303,
 			"number": "79a",
 			"title": "Pizza pepperoni",
 			"subtitle": "tomatsovs, ost og pepperoni",
@@ -719,7 +735,7 @@
 			"categoryId": 13
 		},
 		{
-			"id": 88,
+			"id": 1304,
 			"number": "80",
 			"title": "Spaghetti",
 			"subtitle": "med kødsovs",
@@ -727,7 +743,7 @@
 			"categoryId": 13
 		},
 		{
-			"id": 89,
+			"id": 1305,
 			"number": "81",
 			"title": "Fiskefilet",
 			"subtitle": "1 stk. med pommes frites og remoulade",
@@ -735,7 +751,7 @@
 			"categoryId": 13
 		},
 		{
-			"id": 90,
+			"id": 1306,
 			"number": "82",
 			"title": "Kylling nuggets",
 			"subtitle": "6 stk. med pommes frites og salatmayonnaise",

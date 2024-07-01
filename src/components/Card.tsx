@@ -1,7 +1,8 @@
 import React from "react";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
-import { db } from "../data/db";
 import Product from "../Models/Product";
+import { useRecoilState } from "recoil";
+import { favoriteProductsAtom } from "../atoms/FavoritesAtom";
 type Props = {
 	product: Product;
 	index: number;
@@ -16,10 +17,22 @@ const currencyFormat = new Intl.NumberFormat("da-dk", {
 }).resolvedOptions();
 
 export default function Card({ product, index, count }: Props) {
+	const [favoriteProducts, setFavoriteProducts] = useRecoilState(favoriteProductsAtom);
+
+	const { isFavorite } = favoriteProducts.find((f) => f.id === product.id) ?? {
+		id: product.id,
+		isFavorite: false,
+	};
+
 	const handleToggleLike = () => {
-		db.products.get({ id: product.id }).then((p) => {
-			db.products.update(product, { isFavorite: !product.isFavorite });
-		});
+		const productItem = {
+			id: product.id as number,
+			isFavorite: !isFavorite,
+		};
+
+		const newList = [...favoriteProducts.filter((f) => f.id !== product.id), productItem];
+
+		setFavoriteProducts(newList);
 	};
 
 	const calculateClasses = (): string => {
@@ -50,7 +63,7 @@ export default function Card({ product, index, count }: Props) {
 				</p>
 			</div>
 			<div className="col-start-2 row-span-3 row-start-1 text-4xl">
-				{product.isFavorite ? (
+				{isFavorite ? (
 					<AiFillHeart className="text-red-500 cursor-pointer" onClick={() => handleToggleLike()} />
 				) : (
 					<AiOutlineHeart

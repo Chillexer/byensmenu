@@ -1,4 +1,3 @@
-import { useLiveQuery } from "dexie-react-hooks";
 import { RecoilRoot } from "recoil";
 import "./App.css";
 import Info from "./components/Info";
@@ -6,13 +5,15 @@ import Navbar from "./components/Navbar";
 import Scroller from "./components/Scroller";
 import Search from "./components/Search";
 import SliderWrapper from "./components/Slider";
-import { db } from "./data/db";
+import data from "./data/menu.json";
 
 function App() {
-	const categories = useLiveQuery(async () => {
-		await db.initialize();
-		return await db.categories.toArray();
-	});
+	const { categories } = data;
+
+	// useLiveQuery(async () => {
+	// 	await db.initialize();
+	// 	return await db.categories.toArray();
+	// });
 
 	if (categories)
 		return (

@@ -1,8 +1,7 @@
-import { useLiveQuery } from "dexie-react-hooks";
 import React from "react";
 import { useRecoilState } from "recoil";
 import { searchAtom } from "../atoms/SearchAtom";
-import { db } from "../data/db";
+import data from "../data/menu.json";
 import Category from "../Models/Category";
 import Product from "../Models/Product";
 import ProductCards from "./ProductCards";
@@ -13,20 +12,16 @@ type Props = {
 
 const Section = React.forwardRef<HTMLElement, Props>(({ category }: Props, ref) => {
 	const [search] = useRecoilState(searchAtom);
-	const products = useLiveQuery(
-		() =>
-			db.products
-				.where("categoryId")
-				.equals(category.id)
-				.and(
-					(x) =>
-						x.title.toLowerCase().includes(search.toLowerCase()) ||
-						x.subtitle.toLowerCase().includes(search.toLowerCase())
-				)
-				.toArray(),
-		[search, category],
-		[] as Product[]
-	);
+	const products = data.products
+		.filter(
+			(p) =>
+				p.categoryId === category.id &&
+				(p.title.toLowerCase().includes(search.toLowerCase()) ||
+					p.subtitle.toLowerCase().includes(search.toLowerCase()))
+		)
+		.sort((a, b) =>
+			a.number.toString().localeCompare(b.number.toString(), undefined, { numeric: true })
+		) as Product[];
 
 	if (products.length > 0)
 		return (
