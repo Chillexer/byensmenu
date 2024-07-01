@@ -1,21 +1,18 @@
 {
   "files": {
-    "main.css": "/byensmenu/static/css/main.1de01489.css",
-    "main.js": "/byensmenu/static/js/main.e85a9cc9.js",
-    "static/media/personale-header.jpeg": "/byensmenu/static/media/personale-header.6bc5e04852a193d05bcd.jpeg",
-    "static/media/personale-2.jpeg": "/byensmenu/static/media/personale-2.3bdc1274d2becf73f309.jpeg",
-    "static/media/personale-viser-pizza.jpeg": "/byensmenu/static/media/personale-viser-pizza.08303f82a5d21fc66a14.jpeg",
-    "service-worker.js": "/byensmenu/service-worker.js",
-    "static/media/slick.svg": "/byensmenu/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/byensmenu/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/byensmenu/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/byensmenu/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/byensmenu/index.html",
-    "main.1de01489.css.map": "/byensmenu/static/css/main.1de01489.css.map",
-    "main.e85a9cc9.js.map": "/byensmenu/static/js/main.e85a9cc9.js.map"
+    "main.css": "/menu/static/css/main.5cf46154.css",
+    "main.js": "/menu/static/js/main.96000a32.js",
+    "service-worker.js": "/menu/service-worker.js",
+    "static/media/slick.svg": "/menu/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/menu/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/menu/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/menu/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/menu/index.html",
+    "main.5cf46154.css.map": "/menu/static/css/main.5cf46154.css.map",
+    "main.96000a32.js.map": "/menu/static/js/main.96000a32.js.map"
   },
   "entrypoints": [
-    "static/css/main.1de01489.css",
-    "static/js/main.e85a9cc9.js"
+    "static/css/main.5cf46154.css",
+    "static/js/main.96000a32.js"
   ]
 }
