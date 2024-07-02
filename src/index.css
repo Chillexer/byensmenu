@@ -21,11 +21,16 @@
 }
 
 .popup-content {
-	top: 50vh;
-	left: 50%;
 	position: fixed !important;
-	transform: translate(-50%, -50%);
 	@apply w-full h-[100vh] sm:h-auto max-w-2xl p-4 pb-5 mt-8 bg-white rounded-lg xl:max-w-4xl;
+}
+
+@media (min-width: 640px) {
+	.popup-content {
+		top: 50vh;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 }
 
 @supports (height: 100dvh) {
