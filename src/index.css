@@ -32,6 +32,12 @@
 	.popup-content {
 		height: 100dvh;
 	}
+
+	@media (min-width: 640px) {
+		.popup-content {
+			height: auto;
+		}
+	}
 }
 
 .popup-content-container {
