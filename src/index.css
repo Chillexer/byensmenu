@@ -28,9 +28,9 @@
 	@apply w-full h-[100vh] sm:h-auto max-w-2xl p-4 pb-5 mt-8 bg-white rounded-lg xl:max-w-4xl;
 }
 
-@supports (height: 100svh) {
+@supports (height: 100dvh) {
 	.popup-content {
-		height: 100svh;
+		height: 100dvh;
 	}
 }
 
